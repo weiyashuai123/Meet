@@ -1,14 +1,23 @@
 # 遇见2017 （Meet2017）
 * 为防止毕业设计查重 此项目暂时只提供演示 待设计提交后 会上传整个项目 </br>
+#### 启动</br>
+ ![Start](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met1.png "启动")
+ ![Start1](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m0.png "启动")
 #### 登录</br>
  ![Login](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met2.png "登录")
  ![login1](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m1.png "登录")
- ![Chat](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met6.png "聊天")
+#### 主页</br>
+ ![Main](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met3.png "main")</br>
  ![Main2](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met4.png "main2")
+#### 聊天</br>
+ ![Chat](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met6.png "聊天")
+#### 登录</br>
+
+
+
  ![Info](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met5.png "信息")
  ![Register](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m2.png "注册")
- ![Start](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met1.png "启动")
- ![Start1](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m0.png "启动")
+
  
- ![Main](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met3.png "main")</br>
+
  2017年3月
