@@ -1,5 +1,5 @@
 # 遇见2017 （Meet2017）
-* 为防止毕业设计查重 此项目暂时只提供演示 待设计提交后 会上传整个项目 </br>
+* 目前仅展示界面，待项目完成后，将上传整个工程 </br>
 #### 启动</br>
  ![Start](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met1.png "启动")
  ![Start1](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m0.png "启动")
@@ -14,5 +14,5 @@
 #### 注册</br>
  ![Register](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m2.png "注册")
 #### 个人信息</br>
- ![Info](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met5.png "信息")
-2017-04-20 11:57:06
+ ![Info](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met5.png "信息")</br>
+* 2017-04-20 11:57:06
