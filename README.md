@@ -7,17 +7,12 @@
  ![Login](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met2.png "登录")
  ![login1](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m1.png "登录")
 #### 主页</br>
- ![Main](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met3.png "main")</br>
+ ![Main](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met3.png "main")
  ![Main2](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met4.png "main2")
 #### 聊天</br>
  ![Chat](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met6.png "聊天")
-#### 登录</br>
-
-
-
- ![Info](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met5.png "信息")
+#### 注册</br>
  ![Register](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m2.png "注册")
-
- 
-
- 2017年3月
+#### 个人信息</br>
+ ![Info](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met5.png "信息")
+2017-04-20 11:57:06
