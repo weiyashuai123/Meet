@@ -11,7 +11,8 @@
  ![Main2](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met4.png "main2")
 #### 聊天</br>
  ![Chat](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met6.png "聊天")
- ![dt](https://github.com/weiyashuai123/Meet/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180322185724.jpg "动态")
+ ![code](https://github.com/weiyashuai123/Meet/blob/master/barcode_screen.jpg "二维码")
+ ![dt](https://github.com/weiyashuai123/Meet/blob/master/dt_screen.jpg "动态")
 #### 注册</br>
  ![Register](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m2.png "注册")
 #### 个人信息</br>
