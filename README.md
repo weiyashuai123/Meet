@@ -1,5 +1,5 @@
 # 遇见2017 （Meet2017）
-* 目前仅展示界面，待项目完成后，将上传整个工程 </br>
+* 此处仅展示部分界面，具体实现请下载源码，该工程为Android Studio工程
 #### 启动</br>
  ![Start](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met1.png "启动")
  ![Start1](https://github.com/weiyashuai123/meet/blob/master/DemoImage/m0.png "启动")
@@ -18,3 +18,4 @@
 #### 个人信息</br>
  ![Info](https://github.com/weiyashuai123/meet/blob/master/DemoImage/met5.png "信息")</br>
 * 2017-04-20 11:57:06
+*  - 项目已上传
