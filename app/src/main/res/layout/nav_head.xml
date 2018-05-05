@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/bg_splashactivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#96000000"/>
+    <ImageView
+        android:id="@+id/img_bigIcon_main"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/girl"/>
+    <TextView
+        android:id="@+id/txt_nickname_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/BaseWhite"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:text="Material Design"/>
+    <TextView
+        android:id="@+id/txt_mContact_main"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/BaseWhite"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Material Design语言的一些重要功能包括 系统字体Roboto的升级版本 ，同时颜色更鲜艳，动画效果更突出。"/>
+</RelativeLayout>

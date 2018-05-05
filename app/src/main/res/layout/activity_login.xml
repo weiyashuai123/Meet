@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_splashactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A0000000">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:contentDescription="@string/img_nowarn"
+            android:src="@drawable/ic_splash" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/login_username_hint"
+            android:inputType="number"
+            app:met_baseColor="@color/WHITE"
+            app:met_floatingLabel="highlight"
+            app:met_iconLeft="@drawable/m"
+            app:met_iconPadding="0dp"
+            app:met_primaryColor="?colorAccent"
+            app:met_singleLineEllipsis="true"
+            app:met_underlineColor="#fff" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:hint="@string/login_password_hint"
+            android:inputType="textPassword"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_iconLeft="@drawable/pass"
+            app:met_iconPadding="0dp"
+            app:met_primaryColor="?colorAccent"
+            app:met_singleLineEllipsis="true"
+            app:met_underlineColor="#fff" />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:id="@+id/btn_login_tologin"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:textColor="#ffffff" />
+        <ProgressBar
+            android:layout_marginTop="20dp"
+            android:id="@+id/progress_login"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/register_txt1"
+                android:textColor="#888888"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_login_toregister"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/register_txt2"
+                android:textColor="@color/BaseWhite"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

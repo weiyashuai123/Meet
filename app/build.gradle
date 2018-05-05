@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "cn.bmob.imdemo"
+        minSdkVersion 21
+        targetSdkVersion 22
+        versionCode 2
+        versionName "1.0.214"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //自动删除 unaligned .apks
+            applicationVariants.all { variant ->
+                variant.assemble.doLast {
+                    variant.outputs.each { output ->
+                        File unaligned = output.packageApplication.outputFile;
+                        File aligned = output.outputFile
+                        if (!unaligned.getName().equalsIgnoreCase(aligned.getName())) {
+                            println "deleting " + unaligned.getName()
+                            unaligned.delete()
+                        }
+                    }
+                }
+            }
+        }
+    }
+    dexOptions{
+        incremental false
+    }
+
+    lintOptions {
+        abortOnError false
+        //忽略警告
+        ignoreWarnings true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    /**
+     * 解决NewIM SDK 和服务SDK的冲突
+     */
+    packagingOptions{
+        exclude 'META-INF/rxjava.properties'
+    }
+}
+
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    compile fileTree(dir: 'jniLibs', include: ['**/*.so'])
+    testCompile 'junit:junit:4.12'
+    compile('com.android.support:appcompat-v7:22.2.0') {
+        exclude module: 'support-annotations'
+    }
+    compile 'com.android.support:recyclerview-v7:22.2.0'
+    compile 'com.android.support:design:22.2.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.orhanobut:logger:1.4'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+
+    //bmob-im:自2.0.5开始提供aar格式：包含BmobNewIM_xxxx.jar、androidasync_2.1.6.jar、bmob_im_notification_strings.xml
+    compile 'cn.bmob.android:bmob-im:2.0.6@aar'
+    //bmob-sdk:3.5.5
+    compile 'cn.bmob.android:bmob-sdk:3.5.5'
+    //汉字转拼音
+    compile 'com.github.promeg:tinypinyin:1.0.0'
+    compile project(path: ':libzxing')
+}

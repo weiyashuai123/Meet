@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mine_menu"
+            android:icon="@mipmap/mine"
+            android:title="个人信息" />
+        <item android:id="@+id/vip_menu"
+            android:icon="@mipmap/member"
+            android:title="会员中心"/>
+        <item android:id="@+id/fight_menu"
+            android:icon="@mipmap/fight"
+            android:title="战斗吧"/>
+        <item android:id="@+id/code_menu"
+            android:icon="@mipmap/code"
+            android:title="二维码"/>
+        <item android:id="@+id/setting_menu"
+            android:icon="@mipmap/setting"
+            android:title="设置"/>
+        <item android:id="@+id/exit_menu"
+            android:icon="@mipmap/exit"
+            android:title="注销"
+            />
+    </group>
+
+</menu>

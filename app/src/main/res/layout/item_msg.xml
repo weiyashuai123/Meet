@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll_msg_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.tyustwys.meet7.view.BubbleTextVew
+            android:layout_marginStart="130dp"
+            android:id="@+id/txt_msg_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/testValue"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:angle="8dp"
+            app:arrowHeight="10dp"
+            app:arrowLocation="right"
+            app:arrowPosition="14dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@color/PressBlue" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_msg_right"
+            android:contentDescription="@string/img_nowarn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/keke0"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_msg_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_msg_left"
+            android:contentDescription="@string/img_nowarn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/girl"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            />
+
+        <com.tyustwys.meet7.view.BubbleTextVew
+            android:layout_marginEnd="70dp"
+            android:id="@+id/txt_msg_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/testValue"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:angle="8dp"
+            app:arrowHeight="10dp"
+            app:arrowLocation="left"
+            app:arrowPosition="14dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@color/DeepOrange" />
+    </LinearLayout>
+
+
+</LinearLayout>

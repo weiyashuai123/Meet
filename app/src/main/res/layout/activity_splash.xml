@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splashactivity"
+    android:fitsSystemWindows="true"
+    tools:context="cn.bmob.imdemo.ui.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#50000000"
+        android:contentDescription="@string/img_nowarn" />
+    <ImageView
+        android:id="@+id/img_start"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_splash" />
+
+    <TextView
+        android:id="@+id/txt_start_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="50dp"
+        android:text="因为刚好遇见你"
+        android:textColor="@color/BaseWhite"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_start_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txt_start_1"
+        android:layout_gravity="center"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp"
+        android:gravity="end"
+        android:text="留下足迹才美丽..."
+        android:textColor="@color/BaseWhite"
+        android:textSize="20sp" />
+</RelativeLayout>
